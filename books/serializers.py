@@ -4,6 +4,39 @@ from .models import Author, Publisher, Book
 
 
 
+
+
+class BookSerializer(serializers.ModelSerializer):
+    publisher = serializers.PrimaryKeyRelatedField(queryset=Publisher.objects.all())
+    authors = serializers.PrimaryKeyRelatedField(queryset=Author.objects.all(), many=True, required=False)
+
+    class Meta:
+        model = Book
+        fields = '__all__'
+
+    def create(self, validated_data):
+        authors = validated_data.pop('authors', [])
+
+        book = Book.objects.create(**validated_data)
+        book.authors.set(authors)
+
+        return book
+
+    def update(self, instance, validated_data):
+        authors = validated_data.pop('authors', None)
+        for attr, value in validated_data.items():
+            setattr(instance, attr, value)
+
+        instance.save()
+        if authors is not None:
+            instance.authors.set(authors)
+        return instance
+
+
+
+
+
+
 class ListOfPublisherSerializer(serializers.ModelSerializer):
     class Meta:
         model = Publisher
