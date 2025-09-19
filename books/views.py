@@ -1,9 +1,69 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status, generics, mixins, viewsets
+from rest_framework.views import APIView
+from rest_framework.pagination import PageNumberPagination
+
 from .models import Book, BookAuthor, Author, Publisher
 from .serializers import ListOfPublisherSerializer, DetailPublisherSerializer, CreatePublisherSerializer
 from .serializers import BookListSerializer, BookSerializer, AuthorDetailSerializer
+
+
+
+class BookListView(APIView, PageNumberPagination):
+    page_size = 5
+
+    def get(self, request):
+        books = Book.objects.all()
+        self.page_size = self.get_page_size(request)
+        result = self.paginate_queryset(books, request, view=self)
+
+
+        serializer = BookListSerializer(result, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+    def get_page_size(self, request):
+        page_size = request.query_params.get('page_size', None)
+        if page_size and page_size.isdigit():
+            return int(page_size)
+        return self.page_size
+
+
+    # def get(self, request):
+    #
+    #     # items_for_filter = ['year', 'author', 'publisher']
+    #
+    #     filters = {}
+    #
+    #     # for key, value in request.query_params.items():
+    #     #     if key in items_for_filter:
+    #     #         filters[key] = value
+    #
+    #     year = request.query_params.get('year', None)
+    #     is_bestseller = request.query_params.get('is_bestseller', None)
+    #
+    #
+    #     sort_by = request.query_params.get('sort_by', 'title')
+    #     sort_order = request.query_params.get('sort_order', 'asc')
+    #     sort_order = '-' if sort_order == 'desc' else ''
+    #
+    #     if year is not None:
+    #         filters['published_date__year'] = year
+    #
+    #     if is_bestseller is not None:
+    #         filters['is_bestseller'] = is_bestseller
+    #
+    #     res = Book.objects.filter(**filters).order_by(f'{sort_order}{sort_by}')
+    #
+    #     serializer = BookListSerializer(res, many=True)
+    #     return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+
+
+
+
+
 
 
 

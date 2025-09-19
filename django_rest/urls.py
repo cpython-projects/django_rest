@@ -32,6 +32,8 @@ urlpatterns = [
     path('api/v1/publishers/<int:pk>', books_views.publisher_detail, name='publisher_detail'),
 
 
-    path('api/v1/books', books_views.CreateListBookView.as_view(), name='mybooks'),
+    # path('api/v1/books', books_views.CreateListBookView.as_view(), name='mybooks'),
     path('api/v1/', include(router.urls)),
+
+    path('api/v1/books', books_views.BookListView.as_view(), name='mybooks'),
 ]
