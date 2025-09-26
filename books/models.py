@@ -4,8 +4,17 @@ import datetime
 from django.db import models
 from django.core.validators import MinValueValidator, RegexValidator
 from django.core.exceptions import ValidationError
+from django.utils import timezone
 from django.utils.text import slugify
 from django.utils.translation import gettext_lazy as _
+
+
+class SoftDeleteModel(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(deleted_at__isnull=True)
+
+    def all_with_deleted(self):
+        return super().get_queryset().all()
 
 
 class TimeStampedModel(models.Model):
@@ -41,15 +50,23 @@ class Author(TimeStampedModel):
         return str(self)
 
 
-class Publisher(TimeStampedModel):
+
+class Publisher(TimeStampedModel):  # models.Model
     name = models.CharField(max_length=150, unique=True, db_index=True, verbose_name=_("Name"))
     established_date = models.DateField(null=True, blank=True, verbose_name=_("Established date"))
     website = models.URLField(blank=True, verbose_name=_("Website"))
+    deleted_at = models.DateField(null=True, blank=True, verbose_name=_("Deleted date"))
+
+    objects = SoftDeleteModel()
 
     class Meta:
         verbose_name = _("Publisher")
         verbose_name_plural = _("Publishers")
         ordering = ["name"]
+
+    def delete(self, *args, **kwargs):
+        self.deleted_at = timezone.now()
+        self.save(update_fields=["deleted_at"])
 
     def __str__(self) -> str:
         return self.name
@@ -93,6 +110,7 @@ class Book(TimeStampedModel):
         related_name="books",
         verbose_name=_("Authors")
     )
+    is_banned = models.BooleanField(default=False, verbose_name=_("Is banned"))
 
     class Meta:
         verbose_name = _("Book")

@@ -9,8 +9,8 @@ class BookAuthorInline(admin.TabularInline):
 
 @admin.register(Book)
 class BookAdmin(admin.ModelAdmin):
-    list_display = ("title", "publisher", "published_date", "is_bestseller")
-    list_filter = ("is_bestseller", "publisher")
+    list_display = ('pk', "title", "publisher", "published_date", "is_bestseller")
+    list_filter = ("is_bestseller", "publisher", 'is_banned')
     search_fields = ("title",)
     date_hierarchy = "published_date"
     inlines = [BookAuthorInline]  # ✅ вместо добавления authors в fieldsets

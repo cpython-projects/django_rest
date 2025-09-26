@@ -14,25 +14,33 @@ class BookSerializer(serializers.ModelSerializer):
         model = Book
         fields = '__all__'
 
-    def create(self, validated_data):
-        authors = validated_data.pop('authors', [])
-
-        book = Book.objects.create(**validated_data)
-        book.authors.set(authors)
-
-        return book
-
-    def update(self, instance, validated_data):
-        authors = validated_data.pop('authors', None)
-        for attr, value in validated_data.items():
-            setattr(instance, attr, value)
-
-        instance.save()
-        if authors is not None:
-            instance.authors.set(authors)
-        return instance
-
-
+    def to_representation(self, instance):
+        representation = super().to_representation(instance)
+        if self.context.get('include_related'):
+            representation['genres'] = ['111', '222', '333']
+        else:
+            representation.pop('genres', None)
+        return representation
+    #
+    # def create(self, validated_data):
+    #     authors = validated_data.pop('authors', [])
+    #
+    #     book = Book.objects.create(**validated_data)
+    #     book.authors.set(authors)
+    #
+    #     return book
+    #
+    # def update(self, instance, validated_data):
+    #     authors = validated_data.pop('authors', None)
+    #     for attr, value in validated_data.items():
+    #         setattr(instance, attr, value)
+    #
+    #     instance.save()
+    #     if authors is not None:
+    #         instance.authors.set(authors)
+    #     return instance
+    #
+    #
 
 
 

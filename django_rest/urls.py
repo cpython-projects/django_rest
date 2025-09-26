@@ -21,19 +21,13 @@ from rest_framework import routers
 
 
 router = routers.DefaultRouter()
-router.register(r'authors', books_views.AuthorViewSet, basename='authors')
+router.register(r'publishers', books_views.PublisherAPIView)
+router.register(r'books', books_views.BooksAPIView)
+router.register(r'authors', books_views.AuthorsAPIView)
+
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
-    # api for publishers
-    path('api/v1/publishers', books_views.publishers, name='publishers'),
-    path('api/v1/publishers/<int:pk>', books_views.publisher_detail, name='publisher_detail'),
-
-
-    # path('api/v1/books', books_views.CreateListBookView.as_view(), name='mybooks'),
     path('api/v1/', include(router.urls)),
-
-    path('api/v1/books', books_views.BookListView.as_view(), name='mybooks'),
 ]
