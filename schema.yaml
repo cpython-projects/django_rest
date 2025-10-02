@@ -1,0 +1,737 @@
+openapi: 3.0.3
+info:
+  title: ''
+  version: 0.0.0
+paths:
+  /api/schema/:
+    get:
+      operationId: api_schema_retrieve
+      description: |-
+        OpenApi3 schema for this API. Format can be selected via content negotiation.
+
+        - YAML: application/vnd.oai.openapi
+        - JSON: application/vnd.oai.openapi+json
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - yaml
+      - in: query
+        name: lang
+        schema:
+          type: string
+          enum:
+          - af
+          - ar
+          - ar-dz
+          - ast
+          - az
+          - be
+          - bg
+          - bn
+          - br
+          - bs
+          - ca
+          - ckb
+          - cs
+          - cy
+          - da
+          - de
+          - dsb
+          - el
+          - en
+          - en-au
+          - en-gb
+          - eo
+          - es
+          - es-ar
+          - es-co
+          - es-mx
+          - es-ni
+          - es-ve
+          - et
+          - eu
+          - fa
+          - fi
+          - fr
+          - fy
+          - ga
+          - gd
+          - gl
+          - he
+          - hi
+          - hr
+          - hsb
+          - hu
+          - hy
+          - ia
+          - id
+          - ig
+          - io
+          - is
+          - it
+          - ja
+          - ka
+          - kab
+          - kk
+          - km
+          - kn
+          - ko
+          - ky
+          - lb
+          - lt
+          - lv
+          - mk
+          - ml
+          - mn
+          - mr
+          - ms
+          - my
+          - nb
+          - ne
+          - nl
+          - nn
+          - os
+          - pa
+          - pl
+          - pt
+          - pt-br
+          - ro
+          - ru
+          - sk
+          - sl
+          - sq
+          - sr
+          - sr-latn
+          - sv
+          - sw
+          - ta
+          - te
+          - tg
+          - th
+          - tk
+          - tr
+          - tt
+          - udm
+          - ug
+          - uk
+          - ur
+          - uz
+          - vi
+          - zh-hans
+          - zh-hant
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/vnd.oai.openapi:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/yaml:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/vnd.oai.openapi+json:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/json:
+              schema:
+                type: object
+                additionalProperties: {}
+          description: ''
+  /api/v1/authors/:
+    get:
+      operationId: api_v1_authors_list
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedAuthorDetailList'
+          description: ''
+  /api/v1/books/:
+    get:
+      operationId: api_v1_books_list
+      description: Возвращает список всех книг. Можно использовать пагинацию.
+      summary: Список книг
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedBookList'
+          description: ''
+  /api/v1/publishers/:
+    get:
+      operationId: api_v1_publishers_list
+      description: Полный CRUD для издателей. Можно искать и сортировать по имени
+        и дате основания.
+      summary: CRUD издателей
+      parameters:
+      - in: query
+        name: ordering
+        schema:
+          type: string
+        description: 'Сортировка: name или -established_date'
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - in: query
+        name: search
+        schema:
+          type: string
+        description: Поиск по имени издателя
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDetailPublisherList'
+          description: ''
+    post:
+      operationId: api_v1_publishers_create
+      description: Полный CRUD для издателей. Можно искать и сортировать по имени
+        и дате основания.
+      summary: CRUD издателей
+      parameters:
+      - in: query
+        name: ordering
+        schema:
+          type: string
+        description: 'Сортировка: name или -established_date'
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - in: query
+        name: search
+        schema:
+          type: string
+        description: Поиск по имени издателя
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DetailPublisher'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/DetailPublisher'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/DetailPublisher'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDetailPublisherList'
+          description: ''
+  /api/v1/publishers/{id}/:
+    get:
+      operationId: api_v1_publishers_list_2
+      description: Полный CRUD для издателей. Можно искать и сортировать по имени
+        и дате основания.
+      summary: CRUD издателей
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this Publisher.
+        required: true
+      - in: query
+        name: ordering
+        schema:
+          type: string
+        description: 'Сортировка: name или -established_date'
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - in: query
+        name: search
+        schema:
+          type: string
+        description: Поиск по имени издателя
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDetailPublisherList'
+          description: ''
+    put:
+      operationId: api_v1_publishers_update
+      description: Полный CRUD для издателей. Можно искать и сортировать по имени
+        и дате основания.
+      summary: CRUD издателей
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this Publisher.
+        required: true
+      - in: query
+        name: ordering
+        schema:
+          type: string
+        description: 'Сортировка: name или -established_date'
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - in: query
+        name: search
+        schema:
+          type: string
+        description: Поиск по имени издателя
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DetailPublisher'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/DetailPublisher'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/DetailPublisher'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDetailPublisherList'
+          description: ''
+    patch:
+      operationId: api_v1_publishers_partial_update
+      description: Полный CRUD для издателей. Можно искать и сортировать по имени
+        и дате основания.
+      summary: CRUD издателей
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this Publisher.
+        required: true
+      - in: query
+        name: ordering
+        schema:
+          type: string
+        description: 'Сортировка: name или -established_date'
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - in: query
+        name: search
+        schema:
+          type: string
+        description: Поиск по имени издателя
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedDetailPublisher'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedDetailPublisher'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedDetailPublisher'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDetailPublisherList'
+          description: ''
+    delete:
+      operationId: api_v1_publishers_destroy
+      description: Полный CRUD для издателей. Можно искать и сортировать по имени
+        и дате основания.
+      summary: CRUD издателей
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this Publisher.
+        required: true
+      - in: query
+        name: ordering
+        schema:
+          type: string
+        description: 'Сортировка: name или -established_date'
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - in: query
+        name: search
+        schema:
+          type: string
+        description: Поиск по имени издателя
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /api/v1/publishers/statistics/:
+    get:
+      operationId: api_v1_publishers_statistics_retrieve
+      description: Возвращает список издателей с количеством книг у каждого.
+      summary: Статистика по книгам издателей
+      parameters:
+      - in: query
+        name: ordering
+        schema:
+          type: string
+        description: 'Сортировка: name или -established_date'
+      - in: query
+        name: search
+        schema:
+          type: string
+        description: Поиск по имени издателя
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: {}
+                description: Unspecified response body
+          description: ''
+components:
+  schemas:
+    AuthorDetail:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        first_name:
+          type: string
+          description: Given name
+          maxLength: 50
+        last_name:
+          type: string
+          description: Family name
+          maxLength: 50
+        birth_date:
+          type: string
+          format: date
+          nullable: true
+        biography:
+          type: string
+      required:
+      - created_at
+      - first_name
+      - id
+      - last_name
+      - updated_at
+    Book:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        publisher:
+          type: integer
+        authors:
+          type: array
+          items:
+            type: integer
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        title:
+          type: string
+          maxLength: 255
+        subtitle:
+          type: string
+          maxLength: 255
+        slug:
+          type: string
+          description: URL friendly identifier; autogenerated from title if empty
+          maxLength: 255
+          pattern: ^[-a-zA-Z0-9_]+$
+        published_date:
+          type: string
+          format: date
+          nullable: true
+        isbn:
+          type: string
+          nullable: true
+          description: ISBN-10 or ISBN-13, numbers only (or trailing X)
+          pattern: ^(97(8|9))?\d{9}(\d|X)$
+          maxLength: 17
+        price:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,8}(?:\.\d{0,2})?$
+          nullable: true
+        discounted_price:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,8}(?:\.\d{0,2})?$
+          nullable: true
+          description: If provided, must be less than or equal to price
+        is_bestseller:
+          type: boolean
+        is_banned:
+          type: boolean
+      required:
+      - created_at
+      - id
+      - publisher
+      - title
+      - updated_at
+    DetailPublisher:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        name:
+          type: string
+          maxLength: 150
+        established_date:
+          type: string
+          format: date
+          nullable: true
+        website:
+          type: string
+          format: uri
+          maxLength: 200
+        deleted_at:
+          type: string
+          format: date
+          nullable: true
+          title: Deleted date
+      required:
+      - created_at
+      - id
+      - name
+      - updated_at
+    PaginatedAuthorDetailList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?page=4
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?page=2
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/AuthorDetail'
+    PaginatedBookList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?page=4
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?page=2
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Book'
+    PaginatedDetailPublisherList:
+      type: object
+      required:
+      - count
+      - results
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?page=4
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?page=2
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/DetailPublisher'
+    PatchedDetailPublisher:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        name:
+          type: string
+          maxLength: 150
+        established_date:
+          type: string
+          format: date
+          nullable: true
+        website:
+          type: string
+          format: uri
+          maxLength: 200
+        deleted_at:
+          type: string
+          format: date
+          nullable: true
+          title: Deleted date
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid

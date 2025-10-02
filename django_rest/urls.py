@@ -18,16 +18,45 @@ from django.contrib import admin
 from django.urls import path, include
 from books import views as books_views
 from rest_framework import routers
+from drf_spectacular.views import (
+    SpectacularAPIView,
+    SpectacularSwaggerView,
+    SpectacularRedocView,
+)
+
+from test_auth import views as auth_views
+
+from rest_framework.authtoken.views import obtain_auth_token
+
+from rest_framework_simplejwt import views as jwt_views
 
 
 router = routers.DefaultRouter()
-router.register(r'publishers', books_views.PublisherAPIView)
-router.register(r'books', books_views.BooksAPIView)
-router.register(r'authors', books_views.AuthorsAPIView)
+# router.register(r'publishers', books_views.PublisherAPIView)
+router.register(r'books', books_views.BookListCreateViewSet, basename='books')
+# router.register(r'authors', books_views.AuthorsAPIView)
 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # path('api/v1/api-jwt-auth/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    # path('api/v1/api-jwt-auth/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
+
+    # path('api/v1/api-token-auth/', obtain_auth_token, name='api-token-auth'),
+
+    path('api/v1/testbasicauth/', auth_views.ProtectedDataView.as_view()),
+
+
     path('api/v1/', include(router.urls)),
+
+    # схема OpenAPI
+    path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
+
+    # Swagger UI
+    path('api/docs/swagger/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+
+    # ReDoc UI (альтернатива Swagger)
+    path('api/docs/redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),
 ]

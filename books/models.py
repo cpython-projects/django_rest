@@ -1,6 +1,7 @@
 from decimal import Decimal
 import datetime
 
+from django.contrib.auth.models import User
 from django.db import models
 from django.core.validators import MinValueValidator, RegexValidator
 from django.core.exceptions import ValidationError
@@ -111,6 +112,8 @@ class Book(TimeStampedModel):
         verbose_name=_("Authors")
     )
     is_banned = models.BooleanField(default=False, verbose_name=_("Is banned"))
+
+    owner = models.ForeignKey(User, on_delete=models.PROTECT, verbose_name=_("Owner"))
 
     class Meta:
         verbose_name = _("Book")

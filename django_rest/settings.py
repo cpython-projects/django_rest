@@ -38,11 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'drf_spectacular',
     'rest_framework',
+    'rest_framework.authtoken',
     'django_filters',
 
-    "books.apps.BooksConfig"
+    "books.apps.BooksConfig",
+    "test_auth.apps.TestAuthConfig"
 ]
 
 MIDDLEWARE = [
@@ -109,6 +111,25 @@ AUTH_PASSWORD_VALIDATORS = [
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 5,
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+
+
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        # 'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ],
+
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ]
+}
+
+
+import datetime
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=50),
+    'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=1),
 }
 
 LOGGING = {
