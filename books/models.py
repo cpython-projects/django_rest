@@ -64,6 +64,7 @@ class Publisher(TimeStampedModel):  # models.Model
         verbose_name = _("Publisher")
         verbose_name_plural = _("Publishers")
         ordering = ["name"]
+        permissions = [("can_publish_author", "Can publish author"),]
 
     def delete(self, *args, **kwargs):
         self.deleted_at = timezone.now()

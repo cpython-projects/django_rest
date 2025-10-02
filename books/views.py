@@ -1,3 +1,5 @@
+from drf_yasg.utils import swagger_auto_schema
+
 from django.utils import timezone
 from rest_framework import mixins, viewsets, status, filters, permissions
 from rest_framework.authentication import BasicAuthentication
@@ -11,7 +13,7 @@ from .models import Publisher, Book, Author
 from .serializers import DetailPublisherSerializer, BookSerializer, AuthorDetailSerializer
 
 
-from rest_framework.permissions import BasePermission
+from rest_framework.permissions import BasePermission, DjangoModelPermissions
 
 
 class IsOwnerOrReadOnly(BasePermission):
@@ -39,11 +41,15 @@ class BookPagination(PageNumberPagination):
     max_page_size = 100
 
 
+class CanPublishAuthorPermission(permissions.BasePermission):
+    def has_permission(self, request, view):
+        return request.user.has_perm('can_publish_author')
+
 
 class BookListCreateViewSet(viewsets.ModelViewSet):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
-    permission_classes = [IsOwnerOrReadOnly]
+    permission_classes = [DjangoModelPermissions, CanPublishAuthorPermission]
 
     def perform_create(self, serializer):
         serializer.save(owner=self.request.user)

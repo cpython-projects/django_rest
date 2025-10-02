@@ -1,0 +1,4469 @@
+[
+{
+    "model": "books.author",
+    "pk": 1001,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.446Z",
+        "updated_at": "2025-09-17T08:23:01.446Z",
+        "first_name": "Amanda",
+        "last_name": "Chan",
+        "birth_date": "1947-11-21",
+        "biography": "Those probably field sea item. Sing drop mind employee thus appear positive bed. International physical experience interest mind. Human wide arrive Mrs often better."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.452Z",
+        "updated_at": "2025-09-17T08:23:01.452Z",
+        "first_name": "Frank",
+        "last_name": "Livingston",
+        "birth_date": "2000-03-09",
+        "biography": "Yard company economic life. Account when again group move gun rock. Later go woman nature two low stay sing. System pull subject style visit most lead."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 3,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.457Z",
+        "updated_at": "2025-09-17T08:23:01.457Z",
+        "first_name": "Alexis",
+        "last_name": "Holmes",
+        "birth_date": "1977-09-02",
+        "biography": "Trip into owner ahead at. Increase together positive loss never reveal yourself respond. By sit certain remain. Close various direction professional than his better hospital. Bill speak board need open."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 4,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.461Z",
+        "updated_at": "2025-09-17T08:23:01.461Z",
+        "first_name": "John",
+        "last_name": "Holmes",
+        "birth_date": "1969-12-10",
+        "biography": "Edge off that ask walk service cover. On check push arrive agency lead. Add any eat."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 5,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.466Z",
+        "updated_at": "2025-09-17T08:23:01.466Z",
+        "first_name": "Laura",
+        "last_name": "Wood",
+        "birth_date": "1972-06-11",
+        "biography": "Nature institution treat throughout people bit apply investment. Soon role including outside including exactly. Play property top him deal. Must former former seat owner boy why. Deep poor down study. Movie style tree two stand."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 6,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.470Z",
+        "updated_at": "2025-09-17T08:23:01.470Z",
+        "first_name": "Erik",
+        "last_name": "Malone",
+        "birth_date": "1975-04-30",
+        "biography": "Down want into against social. Because most bill really garden. Table allow statement television investment spring dream. Place magazine color surface similar control the. Still speech require summer in. Smile government however audience risk none effect."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 7,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.475Z",
+        "updated_at": "2025-09-17T08:23:01.475Z",
+        "first_name": "Danielle",
+        "last_name": "Chavez",
+        "birth_date": "1965-06-13",
+        "biography": "Mention yourself surface second mean. Nearly who large single usually PM. Mission good often risk chair. Risk on wish."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 8,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.479Z",
+        "updated_at": "2025-09-17T08:23:01.479Z",
+        "first_name": "Christine",
+        "last_name": "West",
+        "birth_date": "1976-11-07",
+        "biography": "Nearly skin system style nice compare. Rate financial loss maintain today industry citizen rise. Environmental travel minute. Tell across us often road management. Offer last everybody step technology you. Similar long maybe only act factor in."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 9,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.483Z",
+        "updated_at": "2025-09-17T08:23:01.483Z",
+        "first_name": "Tina",
+        "last_name": "Malone",
+        "birth_date": "1967-11-23",
+        "biography": "Arm than religious gas land lot. Note design center probably economy middle. Top care more defense hospital figure. Glass agency style we. Outside camera possible environment husband doctor during. Between including here bed again."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 10,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.488Z",
+        "updated_at": "2025-09-17T08:23:01.488Z",
+        "first_name": "Traci",
+        "last_name": "Powell",
+        "birth_date": "1950-08-31",
+        "biography": "Life score religious whose chance. Return partner memory voice certainly. Compare phone down sense ever."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 11,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.492Z",
+        "updated_at": "2025-09-17T08:23:01.492Z",
+        "first_name": "Danielle",
+        "last_name": "Bennett",
+        "birth_date": "1987-10-26",
+        "biography": "Point suddenly easy magazine cell nor. Television know sport hot rule center dark. Class road old white check common. Our structure race statement west evening more design. Hundred most success become approach hot people."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 12,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.496Z",
+        "updated_at": "2025-09-17T08:23:01.496Z",
+        "first_name": "Latoya",
+        "last_name": "Powell",
+        "birth_date": "1956-02-20",
+        "biography": "Same my itself cost executive. Source someone use better again way. Minute price behavior. Natural across at want while. Act such trouble network car off. Culture section everything four above standard would."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 13,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.501Z",
+        "updated_at": "2025-09-17T08:23:01.501Z",
+        "first_name": "Rachel",
+        "last_name": "Sweeney",
+        "birth_date": "2000-02-23",
+        "biography": "Happy before many when must. Development table kid attention ten perhaps seven. Under get because level thing. Hundred teach decision area same show."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 14,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.505Z",
+        "updated_at": "2025-09-17T08:23:01.505Z",
+        "first_name": "Crystal",
+        "last_name": "Macdonald",
+        "birth_date": "1996-11-17",
+        "biography": "Animal pass clearly activity something. Theory ago upon old strong. Possible rise environmental any follow ask wear. Maybe foreign mouth difference production officer upon. Range which minute trouble deal everyone."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 15,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.509Z",
+        "updated_at": "2025-09-17T08:23:01.509Z",
+        "first_name": "John",
+        "last_name": "Clark",
+        "birth_date": "1998-07-24",
+        "biography": "Visit house expect herself outside administration. Rich financial people against. Especially fast whatever travel."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 16,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.514Z",
+        "updated_at": "2025-09-17T08:23:01.514Z",
+        "first_name": "Robert",
+        "last_name": "Daniels",
+        "birth_date": "1955-03-13",
+        "biography": "Price sister happy allow write. Type last agree black owner know against last. Board follow approach debate ahead serious. Region board sit."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 17,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.518Z",
+        "updated_at": "2025-09-17T08:23:01.518Z",
+        "first_name": "Marissa",
+        "last_name": "Richard",
+        "birth_date": "1954-12-02",
+        "biography": "Style popular middle professor vote mention fill. To involve where increase. Bar significant address put where."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 18,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.522Z",
+        "updated_at": "2025-09-17T08:23:01.523Z",
+        "first_name": "David",
+        "last_name": "Harrison",
+        "birth_date": "1973-01-01",
+        "biography": "Produce yeah probably door rate light degree. Late else some individual throughout product tough you. Sure property lose wall charge president window. Everything direction win ago. Finish surface easy increase forward."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 19,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.527Z",
+        "updated_at": "2025-09-17T08:23:01.527Z",
+        "first_name": "Brandon",
+        "last_name": "Rice",
+        "birth_date": "1989-08-06",
+        "biography": "Measure base customer last consumer happen degree. Image customer economy medical. Music decade wish sometimes serious environmental. Level what seek wall cup. Road executive tax any million their. Instead accept range hand attack."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 20,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.531Z",
+        "updated_at": "2025-09-17T08:23:01.531Z",
+        "first_name": "Edward",
+        "last_name": "Pierce",
+        "birth_date": "1980-12-12",
+        "biography": "News bag particular drug. Film fact task action south each pay line. Leg issue choose money."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 21,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.536Z",
+        "updated_at": "2025-09-17T08:23:01.536Z",
+        "first_name": "Cassandra",
+        "last_name": "Ellis",
+        "birth_date": "1961-05-23",
+        "biography": "Financial increase right kind discussion. Understand morning trade. Make summer wear class red."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 22,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.541Z",
+        "updated_at": "2025-09-17T08:23:01.541Z",
+        "first_name": "Anna",
+        "last_name": "Phillips",
+        "birth_date": "1958-06-12",
+        "biography": "Quality real attack school rise. Across book president leave land mother whether. Record reality democratic rather better conference interest."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 23,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.545Z",
+        "updated_at": "2025-09-17T08:23:01.545Z",
+        "first_name": "Raymond",
+        "last_name": "Santos",
+        "birth_date": "1953-04-13",
+        "biography": "Resource fly common green. Race food name discuss true. Break field inside give Democrat. Test play forward poor. Doctor interest many newspaper. Church establish star force network theory finally."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 24,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.550Z",
+        "updated_at": "2025-09-17T08:23:01.550Z",
+        "first_name": "Jennifer",
+        "last_name": "White",
+        "birth_date": "1999-08-23",
+        "biography": "Serious record place husband conference data. Notice follow pattern lead. Defense west smile situation level. Away best country rate window. Night detail find my and enough land care."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 25,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.554Z",
+        "updated_at": "2025-09-17T08:23:01.555Z",
+        "first_name": "Jared",
+        "last_name": "Jarvis",
+        "birth_date": "1951-10-15",
+        "biography": "Leader end church local explain. Science goal speech side improve in across. Else different record song everybody."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 26,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.560Z",
+        "updated_at": "2025-09-17T08:23:01.560Z",
+        "first_name": "Kimberly",
+        "last_name": "Smith",
+        "birth_date": "1999-07-03",
+        "biography": "Up hour choose nature war bit. Success seven young way focus final local provide. Reality hundred require laugh hospital art seat."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 27,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.564Z",
+        "updated_at": "2025-09-17T08:23:01.564Z",
+        "first_name": "Larry",
+        "last_name": "Mann",
+        "birth_date": "1972-08-07",
+        "biography": "Thus almost condition learn. Book race Mrs camera. Use enter measure style technology leave."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 28,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.568Z",
+        "updated_at": "2025-09-17T08:23:01.568Z",
+        "first_name": "Scott",
+        "last_name": "Sanford",
+        "birth_date": "1993-11-01",
+        "biography": "Memory position home pay lose walk. Send culture company month book lawyer might. Road strategy feeling anything."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 29,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.572Z",
+        "updated_at": "2025-09-17T08:23:01.572Z",
+        "first_name": "Amanda",
+        "last_name": "Chan",
+        "birth_date": "1970-07-20",
+        "biography": "Network painting book mean employee year. Game probably prove call prevent. When who above they cell father debate green. They approach environmental indicate seem owner. Thank miss ten discussion animal enter."
+    }
+},
+{
+    "model": "books.author",
+    "pk": 30,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.578Z",
+        "updated_at": "2025-09-18T11:40:15.035Z",
+        "first_name": "Amber111111111111111",
+        "last_name": "Smith",
+        "birth_date": "1945-12-15",
+        "biography": "Focus onto send. Appear clearly run article. Not easy draw. Remain change step first peace year into. School anything item great. Produce news order."
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.583Z",
+        "updated_at": "2025-09-17T08:23:01.583Z",
+        "name": "Ballard, Gordon and Johnson",
+        "established_date": "1961-11-30",
+        "website": "http://www.sanders.org/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.587Z",
+        "updated_at": "2025-09-17T08:23:01.587Z",
+        "name": "Russo-Smith",
+        "established_date": "2022-05-19",
+        "website": "https://www.petty.biz/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 3,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.592Z",
+        "updated_at": "2025-09-17T08:23:01.592Z",
+        "name": "Randall PLC",
+        "established_date": "1955-06-22",
+        "website": "http://taylor.biz/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 4,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.596Z",
+        "updated_at": "2025-09-17T08:23:01.596Z",
+        "name": "Hicks-Scott",
+        "established_date": "1954-12-29",
+        "website": "http://www.hernandez.com/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 5,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.601Z",
+        "updated_at": "2025-09-17T08:23:01.601Z",
+        "name": "Schwartz, Jensen and Adams",
+        "established_date": "1991-05-06",
+        "website": "https://www.miller.com/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 6,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.605Z",
+        "updated_at": "2025-09-17T08:23:01.606Z",
+        "name": "Miller-Allison",
+        "established_date": "1918-04-02",
+        "website": "http://www.cooper-coffey.com/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 7,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.610Z",
+        "updated_at": "2025-09-17T08:23:01.610Z",
+        "name": "Cochran-Lucero",
+        "established_date": "2018-08-10",
+        "website": "http://shepard-strong.com/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 8,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.614Z",
+        "updated_at": "2025-09-17T08:23:01.614Z",
+        "name": "Neal, Hansen and Miller",
+        "established_date": "1909-12-18",
+        "website": "https://www.ramirez-smith.com/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 9,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.619Z",
+        "updated_at": "2025-09-17T08:23:01.619Z",
+        "name": "Webb Group",
+        "established_date": "1911-12-31",
+        "website": "https://www.tapia-cohen.com/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.publisher",
+    "pk": 10,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.623Z",
+        "updated_at": "2025-09-17T08:23:01.623Z",
+        "name": "Garcia-Jacobson",
+        "established_date": "2012-11-12",
+        "website": "https://hernandez.com/",
+        "deleted_at": null
+    }
+},
+{
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.629Z",
+        "updated_at": "2025-09-17T08:23:01.629Z",
+        "title": "Street professor unit sister.",
+        "subtitle": "Live scientist floor hospital.",
+        "slug": "street-professor-unit-sister",
+        "publisher": 3,
+        "published_date": "2024-05-08",
+        "isbn": "9780503048815",
+        "price": "12.00",
+        "discounted_price": "12.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.635Z",
+        "updated_at": "2025-09-17T08:23:01.635Z",
+        "title": "Where woman.",
+        "subtitle": "Manage such good various activity.",
+        "slug": "where-woman",
+        "publisher": 7,
+        "published_date": "2009-05-29",
+        "isbn": "9780538709347",
+        "price": "92.00",
+        "discounted_price": "92.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.640Z",
+        "updated_at": "2025-09-17T08:23:01.640Z",
+        "title": "Today rate still.",
+        "subtitle": "Condition happy pay heavy she member.",
+        "slug": "today-rate-still",
+        "publisher": 9,
+        "published_date": "1999-03-12",
+        "isbn": "9780012104682",
+        "price": "92.00",
+        "discounted_price": "91.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.646Z",
+        "updated_at": "2025-09-17T08:23:01.646Z",
+        "title": "Real gas.",
+        "subtitle": "Occur would whole glass thus.",
+        "slug": "real-gas",
+        "publisher": 10,
+        "published_date": "1998-10-07",
+        "isbn": "9781851764662",
+        "price": "13.00",
+        "discounted_price": "13.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.653Z",
+        "updated_at": "2025-09-17T08:23:01.653Z",
+        "title": "Hair nice.",
+        "subtitle": "Ask land recently tell free happen parent.",
+        "slug": "hair-nice",
+        "publisher": 6,
+        "published_date": "1999-08-07",
+        "isbn": "9781586700522",
+        "price": "21.00",
+        "discounted_price": "21.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.659Z",
+        "updated_at": "2025-09-17T08:23:01.659Z",
+        "title": "Plant part.",
+        "subtitle": "Successful TV local.",
+        "slug": "plant-part",
+        "publisher": 2,
+        "published_date": "2008-03-24",
+        "isbn": "9780195733761",
+        "price": "17.00",
+        "discounted_price": "17.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.665Z",
+        "updated_at": "2025-09-17T08:23:01.665Z",
+        "title": "Environmental generation town.",
+        "subtitle": "Week main former different.",
+        "slug": "environmental-generation-town",
+        "publisher": 2,
+        "published_date": "2001-06-27",
+        "isbn": "9780516586212",
+        "price": "38.00",
+        "discounted_price": "38.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.673Z",
+        "updated_at": "2025-09-17T08:23:01.673Z",
+        "title": "Result physical soldier reflect if.",
+        "subtitle": "Ask anything check what spend painting.",
+        "slug": "result-physical-soldier-reflect-if",
+        "publisher": 9,
+        "published_date": "2013-01-20",
+        "isbn": "9781371030865",
+        "price": "95.00",
+        "discounted_price": "92.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 9,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.678Z",
+        "updated_at": "2025-09-17T08:23:01.678Z",
+        "title": "Hope suggest local add eight.",
+        "subtitle": "Mother again discuss newspaper down.",
+        "slug": "hope-suggest-local-add-eight",
+        "publisher": 10,
+        "published_date": "2005-03-25",
+        "isbn": "9781868263417",
+        "price": "56.00",
+        "discounted_price": "56.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 10,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.685Z",
+        "updated_at": "2025-09-17T08:23:01.685Z",
+        "title": "Court wait manager.",
+        "subtitle": "Agree goal charge avoid move industry this.",
+        "slug": "court-wait-manager",
+        "publisher": 2,
+        "published_date": "2022-11-10",
+        "isbn": "9780127262352",
+        "price": "61.00",
+        "discounted_price": "61.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 11,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.690Z",
+        "updated_at": "2025-09-17T08:23:01.690Z",
+        "title": "Degree us agree difference.",
+        "subtitle": "Use conference deal message style.",
+        "slug": "degree-us-agree-difference",
+        "publisher": 5,
+        "published_date": "2020-06-13",
+        "isbn": "9780328617241",
+        "price": "67.00",
+        "discounted_price": "67.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 12,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.696Z",
+        "updated_at": "2025-09-17T08:23:01.696Z",
+        "title": "Oil example argue.",
+        "subtitle": "Wrong remain mind.",
+        "slug": "oil-example-argue",
+        "publisher": 4,
+        "published_date": "2002-09-05",
+        "isbn": "9781177881326",
+        "price": "24.00",
+        "discounted_price": "24.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 13,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.702Z",
+        "updated_at": "2025-09-17T08:23:01.702Z",
+        "title": "Design company born history.",
+        "subtitle": "Six real spring bad work.",
+        "slug": "design-company-born-history",
+        "publisher": 4,
+        "published_date": "2010-11-26",
+        "isbn": "9780764389801",
+        "price": "73.00",
+        "discounted_price": "73.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 14,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.708Z",
+        "updated_at": "2025-09-17T08:23:01.708Z",
+        "title": "But speak should country.",
+        "subtitle": "Six defense offer low.",
+        "slug": "but-speak-should-country",
+        "publisher": 10,
+        "published_date": "2014-02-12",
+        "isbn": "9780460070485",
+        "price": "80.00",
+        "discounted_price": "80.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 15,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.714Z",
+        "updated_at": "2025-09-17T08:23:01.714Z",
+        "title": "Medical economy billion idea.",
+        "subtitle": "Media job figure camera common.",
+        "slug": "medical-economy-billion-idea",
+        "publisher": 3,
+        "published_date": "2002-05-06",
+        "isbn": "9780025240858",
+        "price": "52.00",
+        "discounted_price": "52.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 16,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.719Z",
+        "updated_at": "2025-09-17T08:23:01.719Z",
+        "title": "Your particular popular walk.",
+        "subtitle": "Middle general grow move food tend computer.",
+        "slug": "your-particular-popular-walk",
+        "publisher": 4,
+        "published_date": "1999-02-08",
+        "isbn": "9781756078468",
+        "price": "80.00",
+        "discounted_price": "80.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 17,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.724Z",
+        "updated_at": "2025-09-17T08:23:01.724Z",
+        "title": "A set really wind.",
+        "subtitle": "Father the need would test father simply its.",
+        "slug": "a-set-really-wind",
+        "publisher": 4,
+        "published_date": "2008-03-23",
+        "isbn": "9780323966559",
+        "price": "34.00",
+        "discounted_price": "34.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 18,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.730Z",
+        "updated_at": "2025-10-02T08:04:42.322Z",
+        "title": "11111111111111",
+        "subtitle": "Final wall moment during pressure bed.",
+        "slug": "husband-challenge-fact-blue",
+        "publisher": 4,
+        "published_date": "2025-01-14",
+        "isbn": "9781038522436",
+        "price": "12.00",
+        "discounted_price": "11.00",
+        "is_bestseller": false,
+        "is_banned": true,
+        "owner": 2
+    }
+},
+{
+    "model": "books.book",
+    "pk": 19,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.736Z",
+        "updated_at": "2025-09-17T08:23:01.736Z",
+        "title": "Star federal out last.",
+        "subtitle": "Side detail article cost parent attention.",
+        "slug": "star-federal-out-last",
+        "publisher": 3,
+        "published_date": "2020-07-29",
+        "isbn": "9780273071532",
+        "price": "88.00",
+        "discounted_price": "86.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 20,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.742Z",
+        "updated_at": "2025-10-02T07:44:18.786Z",
+        "title": "Wind ask officer red.",
+        "subtitle": "Note say hard more beyond.",
+        "slug": "wind-ask-officer-red",
+        "publisher": 5,
+        "published_date": "2014-03-05",
+        "isbn": "9780535436932",
+        "price": "52.00",
+        "discounted_price": "52.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 2
+    }
+},
+{
+    "model": "books.book",
+    "pk": 21,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.747Z",
+        "updated_at": "2025-09-17T08:23:01.747Z",
+        "title": "Great plan PM.",
+        "subtitle": "Guy prove every in particular night type.",
+        "slug": "great-plan-pm",
+        "publisher": 8,
+        "published_date": "1999-07-11",
+        "isbn": "9781007119513",
+        "price": "77.00",
+        "discounted_price": "74.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 22,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.753Z",
+        "updated_at": "2025-09-17T08:23:01.753Z",
+        "title": "Clear ago good new.",
+        "subtitle": "Congress population look marriage.",
+        "slug": "clear-ago-good-new",
+        "publisher": 9,
+        "published_date": "1997-03-27",
+        "isbn": "9781796465709",
+        "price": "16.00",
+        "discounted_price": "16.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 23,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.758Z",
+        "updated_at": "2025-09-17T08:23:01.758Z",
+        "title": "Inside any weight three.",
+        "subtitle": "Read training picture amount.",
+        "slug": "inside-any-weight-three",
+        "publisher": 7,
+        "published_date": "2002-01-31",
+        "isbn": "9780424453767",
+        "price": "23.00",
+        "discounted_price": "23.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 24,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.763Z",
+        "updated_at": "2025-09-17T08:23:01.763Z",
+        "title": "State soldier behavior.",
+        "subtitle": "Sometimes life rest a according.",
+        "slug": "state-soldier-behavior",
+        "publisher": 10,
+        "published_date": "2014-01-30",
+        "isbn": "9781416821496",
+        "price": "60.00",
+        "discounted_price": "59.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 25,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.769Z",
+        "updated_at": "2025-09-17T08:23:01.769Z",
+        "title": "Late nice.",
+        "subtitle": "Sometimes strategy study heart score.",
+        "slug": "late-nice",
+        "publisher": 9,
+        "published_date": "2018-05-17",
+        "isbn": "9781300057017",
+        "price": "16.00",
+        "discounted_price": "16.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 26,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.776Z",
+        "updated_at": "2025-09-17T08:23:01.776Z",
+        "title": "Far consumer early.",
+        "subtitle": "Key positive carry behavior hit person six end.",
+        "slug": "far-consumer-early",
+        "publisher": 2,
+        "published_date": "2006-08-17",
+        "isbn": "9781103734122",
+        "price": "34.00",
+        "discounted_price": "34.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 27,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.782Z",
+        "updated_at": "2025-09-17T08:23:01.782Z",
+        "title": "Night significant tend theory.",
+        "subtitle": "Statement yard work world thought.",
+        "slug": "night-significant-tend-theory",
+        "publisher": 6,
+        "published_date": "2000-02-26",
+        "isbn": "9781335893161",
+        "price": "35.00",
+        "discounted_price": "35.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 28,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.788Z",
+        "updated_at": "2025-09-17T08:23:01.788Z",
+        "title": "Recognize yard.",
+        "subtitle": "Bed require Mrs subject card wife stuff huge.",
+        "slug": "recognize-yard",
+        "publisher": 10,
+        "published_date": "2008-04-19",
+        "isbn": "9780643707559",
+        "price": "52.00",
+        "discounted_price": "52.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 29,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.794Z",
+        "updated_at": "2025-09-17T08:23:01.794Z",
+        "title": "Arrive president senior development.",
+        "subtitle": "Around large reveal chair box box identify enough.",
+        "slug": "arrive-president-senior-development",
+        "publisher": 1,
+        "published_date": "2000-06-17",
+        "isbn": "9780982646670",
+        "price": "38.00",
+        "discounted_price": "38.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 30,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.800Z",
+        "updated_at": "2025-09-17T08:23:01.800Z",
+        "title": "Staff movie these.",
+        "subtitle": "Left a amount like.",
+        "slug": "staff-movie-these",
+        "publisher": 4,
+        "published_date": "2001-12-19",
+        "isbn": "9781717175007",
+        "price": "76.00",
+        "discounted_price": "76.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 31,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.806Z",
+        "updated_at": "2025-09-17T08:23:01.806Z",
+        "title": "Table left base.",
+        "subtitle": "Together sure other team night type create.",
+        "slug": "table-left-base",
+        "publisher": 7,
+        "published_date": "2016-06-05",
+        "isbn": "9780009969720",
+        "price": "64.00",
+        "discounted_price": "64.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 32,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.812Z",
+        "updated_at": "2025-09-17T08:23:01.812Z",
+        "title": "American happy blood pretty.",
+        "subtitle": "Few stock hear available indeed interview police.",
+        "slug": "american-happy-blood-pretty",
+        "publisher": 6,
+        "published_date": "2007-04-22",
+        "isbn": "9780505396327",
+        "price": "90.00",
+        "discounted_price": "88.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 33,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.818Z",
+        "updated_at": "2025-09-17T08:23:01.818Z",
+        "title": "Choice teacher management whole.",
+        "subtitle": "Bill wait whole church expect smile.",
+        "slug": "choice-teacher-management-whole",
+        "publisher": 9,
+        "published_date": "2015-02-20",
+        "isbn": "9781343417809",
+        "price": "13.00",
+        "discounted_price": "10.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 34,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.823Z",
+        "updated_at": "2025-09-17T08:23:01.823Z",
+        "title": "Staff year.",
+        "subtitle": "Body growth hit than grow program subject.",
+        "slug": "staff-year",
+        "publisher": 5,
+        "published_date": "2011-08-07",
+        "isbn": "9780581005939",
+        "price": "13.00",
+        "discounted_price": "13.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 35,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.829Z",
+        "updated_at": "2025-09-23T11:07:43.220Z",
+        "title": "Scene writer push news.",
+        "subtitle": "Not outside choose street.",
+        "slug": "scene-writer-push-news",
+        "publisher": 8,
+        "published_date": "2013-11-14",
+        "isbn": "9780071507134",
+        "price": "14.00",
+        "discounted_price": "14.00",
+        "is_bestseller": true,
+        "is_banned": true,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 36,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.835Z",
+        "updated_at": "2025-09-17T08:23:01.835Z",
+        "title": "Reduce agree but.",
+        "subtitle": "Heavy report less door.",
+        "slug": "reduce-agree-but",
+        "publisher": 3,
+        "published_date": "2008-10-19",
+        "isbn": "9780109631640",
+        "price": "60.00",
+        "discounted_price": "60.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 37,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.841Z",
+        "updated_at": "2025-09-17T08:23:01.841Z",
+        "title": "Radio let property.",
+        "subtitle": "Foreign land election none amount street over.",
+        "slug": "radio-let-property",
+        "publisher": 9,
+        "published_date": "2021-11-17",
+        "isbn": "9780306107887",
+        "price": "69.00",
+        "discounted_price": "66.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 38,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.847Z",
+        "updated_at": "2025-09-17T08:23:01.847Z",
+        "title": "Such car leader show.",
+        "subtitle": "Often court while still research care inside.",
+        "slug": "such-car-leader-show",
+        "publisher": 4,
+        "published_date": "2001-05-29",
+        "isbn": "9781877732546",
+        "price": "65.00",
+        "discounted_price": "65.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 39,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.853Z",
+        "updated_at": "2025-09-17T08:23:01.854Z",
+        "title": "Green artist thing quickly.",
+        "subtitle": "Child rule report nothing without.",
+        "slug": "green-artist-thing-quickly",
+        "publisher": 2,
+        "published_date": "2006-07-17",
+        "isbn": "9780017512765",
+        "price": "68.00",
+        "discounted_price": "68.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 40,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.859Z",
+        "updated_at": "2025-09-17T08:23:01.859Z",
+        "title": "Figure approach marriage sometimes.",
+        "subtitle": "Bank animal on news training high.",
+        "slug": "figure-approach-marriage-sometimes",
+        "publisher": 8,
+        "published_date": "2008-05-21",
+        "isbn": "9781906568870",
+        "price": "42.00",
+        "discounted_price": "40.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 41,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.865Z",
+        "updated_at": "2025-09-17T08:23:01.865Z",
+        "title": "Its brother financial this detail.",
+        "subtitle": "Hear our allow according eye last.",
+        "slug": "its-brother-financial-this-detail",
+        "publisher": 4,
+        "published_date": "2014-02-07",
+        "isbn": "9781794574694",
+        "price": "81.00",
+        "discounted_price": "81.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 42,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.872Z",
+        "updated_at": "2025-09-17T08:23:01.872Z",
+        "title": "Single likely others cold.",
+        "subtitle": "Firm television season through bag.",
+        "slug": "single-likely-others-cold",
+        "publisher": 1,
+        "published_date": "2019-11-23",
+        "isbn": "9781634260442",
+        "price": "85.00",
+        "discounted_price": "82.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 43,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.877Z",
+        "updated_at": "2025-09-17T08:23:01.878Z",
+        "title": "Unit charge again rest.",
+        "subtitle": "Can case decision blue month security concern.",
+        "slug": "unit-charge-again-rest",
+        "publisher": 5,
+        "published_date": "2002-07-01",
+        "isbn": "9780458840151",
+        "price": "38.00",
+        "discounted_price": "38.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 44,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.884Z",
+        "updated_at": "2025-09-17T08:23:01.884Z",
+        "title": "May animal certain box election.",
+        "subtitle": "Front mother magazine magazine their value.",
+        "slug": "may-animal-certain-box-election",
+        "publisher": 8,
+        "published_date": "2004-09-01",
+        "isbn": "9780970322951",
+        "price": "84.00",
+        "discounted_price": "80.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 45,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.889Z",
+        "updated_at": "2025-09-17T08:23:01.889Z",
+        "title": "Care listen owner.",
+        "subtitle": "Important over blue himself.",
+        "slug": "care-listen-owner",
+        "publisher": 2,
+        "published_date": "1997-08-06",
+        "isbn": "9780572677251",
+        "price": "38.00",
+        "discounted_price": "37.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 46,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.896Z",
+        "updated_at": "2025-09-17T08:23:01.896Z",
+        "title": "Happy town listen management.",
+        "subtitle": "Fly lot specific old pass.",
+        "slug": "happy-town-listen-management",
+        "publisher": 8,
+        "published_date": "1995-12-28",
+        "isbn": "9781803444253",
+        "price": "30.00",
+        "discounted_price": "30.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 47,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.902Z",
+        "updated_at": "2025-09-17T08:23:01.902Z",
+        "title": "Visit job a respond.",
+        "subtitle": "Force suddenly high explain job water protect.",
+        "slug": "visit-job-a-respond",
+        "publisher": 6,
+        "published_date": "2023-02-19",
+        "isbn": "9781701606913",
+        "price": "44.00",
+        "discounted_price": "44.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 48,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.907Z",
+        "updated_at": "2025-09-23T11:07:32.855Z",
+        "title": "Value officer arm course up.",
+        "subtitle": "Idea employee this become last one at start.",
+        "slug": "value-officer-arm-course-up",
+        "publisher": 10,
+        "published_date": "2022-12-15",
+        "isbn": "9781452431581",
+        "price": "89.00",
+        "discounted_price": "89.00",
+        "is_bestseller": true,
+        "is_banned": true,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 49,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.913Z",
+        "updated_at": "2025-09-17T08:23:01.913Z",
+        "title": "Consumer improve.",
+        "subtitle": "Cover three speak whatever attorney thousand.",
+        "slug": "consumer-improve",
+        "publisher": 9,
+        "published_date": "2004-01-26",
+        "isbn": "9781506130880",
+        "price": "23.00",
+        "discounted_price": "23.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 50,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.918Z",
+        "updated_at": "2025-09-17T08:23:01.918Z",
+        "title": "Officer sell doctor job protect.",
+        "subtitle": "Son despite will turn land though.",
+        "slug": "officer-sell-doctor-job-protect",
+        "publisher": 4,
+        "published_date": "1996-12-24",
+        "isbn": "9781875389759",
+        "price": "21.00",
+        "discounted_price": "21.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 51,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.924Z",
+        "updated_at": "2025-09-17T08:23:01.924Z",
+        "title": "Billion right could Democrat.",
+        "subtitle": "Front seat respond always.",
+        "slug": "billion-right-could-democrat",
+        "publisher": 3,
+        "published_date": "2005-09-12",
+        "isbn": "9780786837373",
+        "price": "95.00",
+        "discounted_price": "95.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 52,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.929Z",
+        "updated_at": "2025-09-17T08:23:01.929Z",
+        "title": "Able product.",
+        "subtitle": "Anything under program agent window thank age.",
+        "slug": "able-product",
+        "publisher": 7,
+        "published_date": "2000-12-04",
+        "isbn": "9781169412651",
+        "price": "54.00",
+        "discounted_price": "54.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 53,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.935Z",
+        "updated_at": "2025-09-17T08:23:01.935Z",
+        "title": "Past store enjoy coach worry.",
+        "subtitle": "Newspaper wall seven religious wonder.",
+        "slug": "past-store-enjoy-coach-worry",
+        "publisher": 10,
+        "published_date": "1996-06-27",
+        "isbn": "9781134770472",
+        "price": "47.00",
+        "discounted_price": "47.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 54,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.942Z",
+        "updated_at": "2025-09-17T08:23:01.942Z",
+        "title": "Daughter particular lot ask against.",
+        "subtitle": "Fall and possible weight speak personal left.",
+        "slug": "daughter-particular-lot-ask-against",
+        "publisher": 7,
+        "published_date": "2005-02-16",
+        "isbn": "9781824670693",
+        "price": "24.00",
+        "discounted_price": "24.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 55,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.947Z",
+        "updated_at": "2025-09-17T08:23:01.947Z",
+        "title": "Citizen since.",
+        "subtitle": "Special role bring condition direction.",
+        "slug": "citizen-since",
+        "publisher": 5,
+        "published_date": "2017-06-30",
+        "isbn": "9781305191693",
+        "price": "98.00",
+        "discounted_price": "97.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 56,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.953Z",
+        "updated_at": "2025-09-17T08:23:01.954Z",
+        "title": "Until five.",
+        "subtitle": "Drug growth official food shoulder discuss.",
+        "slug": "until-five",
+        "publisher": 6,
+        "published_date": "2006-09-25",
+        "isbn": "9780389850717",
+        "price": "86.00",
+        "discounted_price": "86.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 57,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.960Z",
+        "updated_at": "2025-09-17T08:23:01.960Z",
+        "title": "Off throw reveal.",
+        "subtitle": "Matter reduce effect up trade say.",
+        "slug": "off-throw-reveal",
+        "publisher": 1,
+        "published_date": "2018-08-13",
+        "isbn": "9781002361757",
+        "price": "68.00",
+        "discounted_price": "68.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 58,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.967Z",
+        "updated_at": "2025-09-17T08:23:01.967Z",
+        "title": "Image act go.",
+        "subtitle": "Strategy affect know claim.",
+        "slug": "image-act-go",
+        "publisher": 4,
+        "published_date": "2002-05-28",
+        "isbn": "9780085900334",
+        "price": "8.00",
+        "discounted_price": "8.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 59,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.972Z",
+        "updated_at": "2025-09-17T08:23:01.972Z",
+        "title": "Consumer offer change some author.",
+        "subtitle": "Something media compare quickly drug activity.",
+        "slug": "consumer-offer-change-some-author",
+        "publisher": 5,
+        "published_date": "2000-11-23",
+        "isbn": "9780823050406",
+        "price": "43.00",
+        "discounted_price": "43.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 60,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.979Z",
+        "updated_at": "2025-09-17T08:23:01.979Z",
+        "title": "What whatever way table.",
+        "subtitle": "Then determine real coach.",
+        "slug": "what-whatever-way-table",
+        "publisher": 7,
+        "published_date": "2007-01-06",
+        "isbn": "9780029925317",
+        "price": "48.00",
+        "discounted_price": "48.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 61,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.984Z",
+        "updated_at": "2025-09-17T08:23:01.984Z",
+        "title": "Economy address wrong.",
+        "subtitle": "Enter bed hour stuff scene.",
+        "slug": "economy-address-wrong",
+        "publisher": 1,
+        "published_date": "1997-08-08",
+        "isbn": "9780288438689",
+        "price": "34.00",
+        "discounted_price": "34.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 62,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.990Z",
+        "updated_at": "2025-09-17T08:23:01.990Z",
+        "title": "Fish run born.",
+        "subtitle": "Store line concern test need.",
+        "slug": "fish-run-born",
+        "publisher": 9,
+        "published_date": "2016-06-24",
+        "isbn": "9781223659558",
+        "price": "39.00",
+        "discounted_price": "37.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 63,
+    "fields": {
+        "created_at": "2025-09-17T08:23:01.996Z",
+        "updated_at": "2025-09-17T08:23:01.996Z",
+        "title": "Truth former.",
+        "subtitle": "While according support position skill.",
+        "slug": "truth-former",
+        "publisher": 8,
+        "published_date": "2023-06-10",
+        "isbn": "9781260710748",
+        "price": "79.00",
+        "discounted_price": "79.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 64,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.001Z",
+        "updated_at": "2025-09-17T08:23:02.001Z",
+        "title": "Perform talk speech.",
+        "subtitle": "Possible clear face mean style.",
+        "slug": "perform-talk-speech",
+        "publisher": 10,
+        "published_date": "2018-08-27",
+        "isbn": "9781477106464",
+        "price": "68.00",
+        "discounted_price": "68.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 65,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.007Z",
+        "updated_at": "2025-09-17T08:23:02.007Z",
+        "title": "Simply goal character lay seven.",
+        "subtitle": "Account matter may teacher bill who.",
+        "slug": "simply-goal-character-lay-seven",
+        "publisher": 5,
+        "published_date": "2007-12-17",
+        "isbn": "9780595680771",
+        "price": "39.00",
+        "discounted_price": "36.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 66,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.012Z",
+        "updated_at": "2025-09-17T08:23:02.012Z",
+        "title": "Group provide.",
+        "subtitle": "Everybody answer girl kind sell interest whom.",
+        "slug": "group-provide",
+        "publisher": 5,
+        "published_date": "2015-03-26",
+        "isbn": "9780185451446",
+        "price": "74.00",
+        "discounted_price": "74.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 67,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.017Z",
+        "updated_at": "2025-09-17T08:23:02.017Z",
+        "title": "Main fill yourself body prevent.",
+        "subtitle": "Professor sign whether station garden world very.",
+        "slug": "main-fill-yourself-body-prevent",
+        "publisher": 10,
+        "published_date": "2007-08-28",
+        "isbn": "9781684045570",
+        "price": "44.00",
+        "discounted_price": "44.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 68,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.022Z",
+        "updated_at": "2025-09-17T08:23:02.022Z",
+        "title": "Book very special bank situation.",
+        "subtitle": "Project board list forward true this.",
+        "slug": "book-very-special-bank-situation",
+        "publisher": 6,
+        "published_date": "2011-07-26",
+        "isbn": "9780350063764",
+        "price": "41.00",
+        "discounted_price": "41.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 69,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.027Z",
+        "updated_at": "2025-09-17T08:23:02.027Z",
+        "title": "Forget guy.",
+        "subtitle": "Game federal teach child.",
+        "slug": "forget-guy",
+        "publisher": 9,
+        "published_date": "2021-10-17",
+        "isbn": "9781308778501",
+        "price": "31.00",
+        "discounted_price": "30.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 70,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.033Z",
+        "updated_at": "2025-09-17T08:23:02.033Z",
+        "title": "Social western discuss source.",
+        "subtitle": "Candidate usually course actually side analysis.",
+        "slug": "social-western-discuss-source",
+        "publisher": 4,
+        "published_date": "2005-01-20",
+        "isbn": "9781189231973",
+        "price": "72.00",
+        "discounted_price": "72.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 71,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.038Z",
+        "updated_at": "2025-09-17T08:23:02.038Z",
+        "title": "Book really improve experience activity.",
+        "subtitle": "Trade end action eye wall.",
+        "slug": "book-really-improve-experience-activity",
+        "publisher": 6,
+        "published_date": "2006-09-29",
+        "isbn": "9780663349630",
+        "price": "29.00",
+        "discounted_price": "28.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 72,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.043Z",
+        "updated_at": "2025-09-17T08:23:02.043Z",
+        "title": "Professional free why.",
+        "subtitle": "Recent eye article.",
+        "slug": "professional-free-why",
+        "publisher": 1,
+        "published_date": "2024-07-29",
+        "isbn": "9780865371064",
+        "price": "65.00",
+        "discounted_price": "63.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 73,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.049Z",
+        "updated_at": "2025-09-17T08:23:02.049Z",
+        "title": "Woman keep guy work.",
+        "subtitle": "History song experience these.",
+        "slug": "woman-keep-guy-work",
+        "publisher": 2,
+        "published_date": "2024-07-14",
+        "isbn": "9781196437634",
+        "price": "59.00",
+        "discounted_price": "56.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 74,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.055Z",
+        "updated_at": "2025-09-17T08:23:02.055Z",
+        "title": "Certain describe.",
+        "subtitle": "Network enter long population food team act few.",
+        "slug": "certain-describe",
+        "publisher": 2,
+        "published_date": "1997-11-29",
+        "isbn": "9781524837570",
+        "price": "44.00",
+        "discounted_price": "44.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 75,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.060Z",
+        "updated_at": "2025-09-17T08:23:02.060Z",
+        "title": "Exist marriage generation.",
+        "subtitle": "Miss employee new could special hard itself friend.",
+        "slug": "exist-marriage-generation",
+        "publisher": 10,
+        "published_date": "2004-12-23",
+        "isbn": "9780983296102",
+        "price": "94.00",
+        "discounted_price": "94.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 76,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.065Z",
+        "updated_at": "2025-09-17T08:23:02.065Z",
+        "title": "Newspaper student run.",
+        "subtitle": "Lawyer exist receive.",
+        "slug": "newspaper-student-run",
+        "publisher": 6,
+        "published_date": "1997-02-20",
+        "isbn": "9780773229617",
+        "price": "56.00",
+        "discounted_price": "56.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 77,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.070Z",
+        "updated_at": "2025-09-17T08:23:02.070Z",
+        "title": "Around friend.",
+        "subtitle": "Report social my everything security.",
+        "slug": "around-friend",
+        "publisher": 4,
+        "published_date": "2015-11-03",
+        "isbn": "9781621764564",
+        "price": "75.00",
+        "discounted_price": "75.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 78,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.076Z",
+        "updated_at": "2025-09-17T08:23:02.076Z",
+        "title": "American exactly own above paper.",
+        "subtitle": "Challenge evidence rate drop against describe rock.",
+        "slug": "american-exactly-own-above-paper",
+        "publisher": 10,
+        "published_date": "2012-10-22",
+        "isbn": "9781470251468",
+        "price": "9.00",
+        "discounted_price": "9.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 79,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.081Z",
+        "updated_at": "2025-09-17T08:23:02.081Z",
+        "title": "Style as argue.",
+        "subtitle": "Final consider door trouble available quality officer.",
+        "slug": "style-as-argue",
+        "publisher": 4,
+        "published_date": "2018-05-11",
+        "isbn": "9781548612214",
+        "price": "74.00",
+        "discounted_price": "74.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 80,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.087Z",
+        "updated_at": "2025-09-17T08:23:02.087Z",
+        "title": "Traditional simply use.",
+        "subtitle": "Pattern certainly team put region cup.",
+        "slug": "traditional-simply-use",
+        "publisher": 2,
+        "published_date": "1996-05-08",
+        "isbn": "9781330574720",
+        "price": "45.00",
+        "discounted_price": "45.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 81,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.093Z",
+        "updated_at": "2025-09-17T08:23:02.093Z",
+        "title": "One stuff score.",
+        "subtitle": "Once fish station.",
+        "slug": "one-stuff-score",
+        "publisher": 6,
+        "published_date": "2007-02-02",
+        "isbn": "9780986726972",
+        "price": "27.00",
+        "discounted_price": "27.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 82,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.100Z",
+        "updated_at": "2025-09-17T08:23:02.100Z",
+        "title": "Mother commercial hour.",
+        "subtitle": "Particularly already describe born party play hotel.",
+        "slug": "mother-commercial-hour",
+        "publisher": 4,
+        "published_date": "2014-04-15",
+        "isbn": "9780181630999",
+        "price": "60.00",
+        "discounted_price": "60.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 83,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.105Z",
+        "updated_at": "2025-09-17T08:23:02.105Z",
+        "title": "Experience understand anything memory issue.",
+        "subtitle": "Poor arm certain sing pressure.",
+        "slug": "experience-understand-anything-memory-issue",
+        "publisher": 4,
+        "published_date": "2017-03-23",
+        "isbn": "9781911185321",
+        "price": "16.00",
+        "discounted_price": "16.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 84,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.110Z",
+        "updated_at": "2025-09-17T08:23:02.110Z",
+        "title": "Ball loss others.",
+        "subtitle": "Make police guess allow but artist light.",
+        "slug": "ball-loss-others",
+        "publisher": 5,
+        "published_date": "2004-01-23",
+        "isbn": "9781649843784",
+        "price": "84.00",
+        "discounted_price": "80.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 85,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.116Z",
+        "updated_at": "2025-09-17T08:23:02.116Z",
+        "title": "Your blue scientist sport activity.",
+        "subtitle": "Chair drug imagine ever argue.",
+        "slug": "your-blue-scientist-sport-activity",
+        "publisher": 3,
+        "published_date": "2004-10-27",
+        "isbn": "9781156143766",
+        "price": "10.00",
+        "discounted_price": "10.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 86,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.121Z",
+        "updated_at": "2025-09-17T08:23:02.121Z",
+        "title": "Movement character military heart.",
+        "subtitle": "Resource staff bad contain sea.",
+        "slug": "movement-character-military-heart",
+        "publisher": 3,
+        "published_date": "2000-12-20",
+        "isbn": "9780767762373",
+        "price": "93.00",
+        "discounted_price": "93.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 87,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.126Z",
+        "updated_at": "2025-09-17T08:23:02.126Z",
+        "title": "Past tree across build big.",
+        "subtitle": "For time public try place lot all.",
+        "slug": "past-tree-across-build-big",
+        "publisher": 9,
+        "published_date": "2009-11-11",
+        "isbn": "9780212434756",
+        "price": "95.00",
+        "discounted_price": "95.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 88888,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.131Z",
+        "updated_at": "2025-09-17T08:23:02.131Z",
+        "title": "11111 Change within father dream.",
+        "subtitle": "1111 Including involve four statement.",
+        "slug": "change111-within-father-dream",
+        "publisher": 4,
+        "published_date": "2020-08-19",
+        "isbn": "9781825442879",
+        "price": "83.00",
+        "discounted_price": "83.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 89,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.136Z",
+        "updated_at": "2025-09-17T08:23:02.136Z",
+        "title": "Opportunity fear current north newspaper.",
+        "subtitle": "Yes order around suggest weight.",
+        "slug": "opportunity-fear-current-north-newspaper",
+        "publisher": 10,
+        "published_date": "2001-05-03",
+        "isbn": "9780471780236",
+        "price": "97.00",
+        "discounted_price": "97.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 90,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.141Z",
+        "updated_at": "2025-09-17T08:23:02.141Z",
+        "title": "Body address.",
+        "subtitle": "Front may if price enjoy simple gas upon.",
+        "slug": "body-address",
+        "publisher": 3,
+        "published_date": "2006-07-28",
+        "isbn": "9781943710454",
+        "price": "33.00",
+        "discounted_price": "31.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 91,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.146Z",
+        "updated_at": "2025-09-17T08:23:02.146Z",
+        "title": "Sort build grow test thousand.",
+        "subtitle": "Any whole bill possible clearly.",
+        "slug": "sort-build-grow-test-thousand",
+        "publisher": 7,
+        "published_date": "2004-02-11",
+        "isbn": "9780507848916",
+        "price": "20.00",
+        "discounted_price": "20.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 92,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.152Z",
+        "updated_at": "2025-09-17T08:23:02.152Z",
+        "title": "Up there necessary.",
+        "subtitle": "Trip city return off field ready but rule.",
+        "slug": "up-there-necessary",
+        "publisher": 10,
+        "published_date": "2008-02-20",
+        "isbn": "9781129407277",
+        "price": "39.00",
+        "discounted_price": "39.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 93,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.157Z",
+        "updated_at": "2025-09-17T08:23:02.157Z",
+        "title": "Pay address class growth.",
+        "subtitle": "Voice standard education film just.",
+        "slug": "pay-address-class-growth",
+        "publisher": 3,
+        "published_date": "2013-04-21",
+        "isbn": "9781320688987",
+        "price": "25.00",
+        "discounted_price": "25.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 94,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.163Z",
+        "updated_at": "2025-09-17T08:23:02.163Z",
+        "title": "Yes positive kid.",
+        "subtitle": "Myself scene seat thus sure song.",
+        "slug": "yes-positive-kid",
+        "publisher": 6,
+        "published_date": "1997-10-15",
+        "isbn": "9780087473225",
+        "price": "45.00",
+        "discounted_price": "45.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 95,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.168Z",
+        "updated_at": "2025-09-17T08:23:02.168Z",
+        "title": "Feeling force.",
+        "subtitle": "Increase choice difference though government here partner.",
+        "slug": "feeling-force",
+        "publisher": 10,
+        "published_date": "2012-12-05",
+        "isbn": "9781245654616",
+        "price": "92.00",
+        "discounted_price": "88.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 96,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.174Z",
+        "updated_at": "2025-09-17T08:23:02.174Z",
+        "title": "Although player both technology.",
+        "subtitle": "Hundred maintain add.",
+        "slug": "although-player-both-technology",
+        "publisher": 3,
+        "published_date": "2007-08-01",
+        "isbn": "9781424008773",
+        "price": "16.00",
+        "discounted_price": "16.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 97,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.179Z",
+        "updated_at": "2025-09-17T08:23:02.179Z",
+        "title": "Party pretty interest.",
+        "subtitle": "Image challenge heart laugh.",
+        "slug": "party-pretty-interest",
+        "publisher": 5,
+        "published_date": "2010-06-02",
+        "isbn": "9781894965330",
+        "price": "76.00",
+        "discounted_price": "72.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 98,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.184Z",
+        "updated_at": "2025-09-17T08:23:02.184Z",
+        "title": "Most financial body.",
+        "subtitle": "Let less message approach camera.",
+        "slug": "most-financial-body",
+        "publisher": 6,
+        "published_date": "2018-10-11",
+        "isbn": "9780296401224",
+        "price": "16.00",
+        "discounted_price": "16.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 99,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.189Z",
+        "updated_at": "2025-09-17T08:23:02.189Z",
+        "title": "Situation officer pull social.",
+        "subtitle": "Now environmental speak floor.",
+        "slug": "situation-officer-pull-social",
+        "publisher": 4,
+        "published_date": "2006-03-01",
+        "isbn": "9781125000984",
+        "price": "45.00",
+        "discounted_price": "45.00",
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 100,
+    "fields": {
+        "created_at": "2025-09-17T08:23:02.195Z",
+        "updated_at": "2025-09-17T08:23:02.195Z",
+        "title": "Prevent leader half music defense.",
+        "subtitle": "Base fire set house.",
+        "slug": "prevent-leader-half-music-defense",
+        "publisher": 1,
+        "published_date": "2016-10-21",
+        "isbn": "9780566944376",
+        "price": "60.00",
+        "discounted_price": "60.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 102,
+    "fields": {
+        "created_at": "2025-09-22T11:49:05.983Z",
+        "updated_at": "2025-09-22T11:49:05.983Z",
+        "title": "Unknown title",
+        "subtitle": "gfhjkl",
+        "slug": "osnovni-stravi",
+        "publisher": 6,
+        "published_date": "2000-01-01",
+        "isbn": "",
+        "price": "100.00",
+        "discounted_price": null,
+        "is_bestseller": true,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 103,
+    "fields": {
+        "created_at": "2025-10-02T07:37:28.138Z",
+        "updated_at": "2025-10-02T07:37:28.138Z",
+        "title": "Trulala",
+        "subtitle": "Final wall moment during pressure bed.",
+        "slug": "trulala",
+        "publisher": 4,
+        "published_date": null,
+        "isbn": "9781038522436",
+        "price": "12.00",
+        "discounted_price": "11.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 1
+    }
+},
+{
+    "model": "books.book",
+    "pk": 104,
+    "fields": {
+        "created_at": "2025-10-02T07:48:52.145Z",
+        "updated_at": "2025-10-02T07:48:52.145Z",
+        "title": "Trulala1",
+        "subtitle": "Final wall moment during pressure bed.",
+        "slug": "trulala111",
+        "publisher": 4,
+        "published_date": null,
+        "isbn": "9781038522436",
+        "price": "12.00",
+        "discounted_price": "11.00",
+        "is_bestseller": false,
+        "is_banned": false,
+        "owner": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 1,
+    "fields": {
+        "book": 1,
+        "author": 27,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 2,
+    "fields": {
+        "book": 2,
+        "author": 30,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 3,
+    "fields": {
+        "book": 2,
+        "author": 1,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 4,
+    "fields": {
+        "book": 3,
+        "author": 5,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 5,
+    "fields": {
+        "book": 4,
+        "author": 13,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 6,
+    "fields": {
+        "book": 4,
+        "author": 29,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 7,
+    "fields": {
+        "book": 4,
+        "author": 7,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 8,
+    "fields": {
+        "book": 5,
+        "author": 8,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 9,
+    "fields": {
+        "book": 5,
+        "author": 20,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 10,
+    "fields": {
+        "book": 6,
+        "author": 6,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 11,
+    "fields": {
+        "book": 7,
+        "author": 24,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 12,
+    "fields": {
+        "book": 7,
+        "author": 5,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 13,
+    "fields": {
+        "book": 7,
+        "author": 12,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 14,
+    "fields": {
+        "book": 8,
+        "author": 15,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 15,
+    "fields": {
+        "book": 8,
+        "author": 1,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 16,
+    "fields": {
+        "book": 8,
+        "author": 8,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 17,
+    "fields": {
+        "book": 9,
+        "author": 2,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 18,
+    "fields": {
+        "book": 9,
+        "author": 14,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 19,
+    "fields": {
+        "book": 10,
+        "author": 15,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 20,
+    "fields": {
+        "book": 10,
+        "author": 17,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 21,
+    "fields": {
+        "book": 10,
+        "author": 9,
+        "role": "translator",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 22,
+    "fields": {
+        "book": 11,
+        "author": 12,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 23,
+    "fields": {
+        "book": 12,
+        "author": 20,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 24,
+    "fields": {
+        "book": 12,
+        "author": 22,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 25,
+    "fields": {
+        "book": 12,
+        "author": 30,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 26,
+    "fields": {
+        "book": 13,
+        "author": 12,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 27,
+    "fields": {
+        "book": 13,
+        "author": 25,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 28,
+    "fields": {
+        "book": 13,
+        "author": 19,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 29,
+    "fields": {
+        "book": 14,
+        "author": 17,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 30,
+    "fields": {
+        "book": 14,
+        "author": 29,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 31,
+    "fields": {
+        "book": 14,
+        "author": 13,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 32,
+    "fields": {
+        "book": 15,
+        "author": 3,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 33,
+    "fields": {
+        "book": 16,
+        "author": 6,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 34,
+    "fields": {
+        "book": 16,
+        "author": 11,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 35,
+    "fields": {
+        "book": 16,
+        "author": 30,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 36,
+    "fields": {
+        "book": 17,
+        "author": 5,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 37,
+    "fields": {
+        "book": 18,
+        "author": 25,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 38,
+    "fields": {
+        "book": 19,
+        "author": 8,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 39,
+    "fields": {
+        "book": 19,
+        "author": 13,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 40,
+    "fields": {
+        "book": 19,
+        "author": 26,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 41,
+    "fields": {
+        "book": 20,
+        "author": 11,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 42,
+    "fields": {
+        "book": 20,
+        "author": 15,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 43,
+    "fields": {
+        "book": 20,
+        "author": 25,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 44,
+    "fields": {
+        "book": 21,
+        "author": 7,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 45,
+    "fields": {
+        "book": 21,
+        "author": 19,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 46,
+    "fields": {
+        "book": 22,
+        "author": 5,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 47,
+    "fields": {
+        "book": 22,
+        "author": 23,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 48,
+    "fields": {
+        "book": 22,
+        "author": 19,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 49,
+    "fields": {
+        "book": 23,
+        "author": 19,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 50,
+    "fields": {
+        "book": 24,
+        "author": 5,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 51,
+    "fields": {
+        "book": 24,
+        "author": 20,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 52,
+    "fields": {
+        "book": 24,
+        "author": 17,
+        "role": "translator",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 53,
+    "fields": {
+        "book": 25,
+        "author": 18,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 54,
+    "fields": {
+        "book": 26,
+        "author": 25,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 55,
+    "fields": {
+        "book": 26,
+        "author": 1,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 56,
+    "fields": {
+        "book": 26,
+        "author": 13,
+        "role": "author",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 57,
+    "fields": {
+        "book": 27,
+        "author": 15,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 58,
+    "fields": {
+        "book": 27,
+        "author": 18,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 59,
+    "fields": {
+        "book": 27,
+        "author": 13,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 60,
+    "fields": {
+        "book": 28,
+        "author": 21,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 61,
+    "fields": {
+        "book": 29,
+        "author": 5,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 62,
+    "fields": {
+        "book": 29,
+        "author": 9,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 63,
+    "fields": {
+        "book": 29,
+        "author": 15,
+        "role": "author",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 64,
+    "fields": {
+        "book": 30,
+        "author": 22,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 65,
+    "fields": {
+        "book": 30,
+        "author": 19,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 66,
+    "fields": {
+        "book": 30,
+        "author": 21,
+        "role": "author",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 67,
+    "fields": {
+        "book": 31,
+        "author": 7,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 68,
+    "fields": {
+        "book": 32,
+        "author": 25,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 69,
+    "fields": {
+        "book": 33,
+        "author": 29,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 70,
+    "fields": {
+        "book": 34,
+        "author": 26,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 71,
+    "fields": {
+        "book": 34,
+        "author": 15,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 72,
+    "fields": {
+        "book": 35,
+        "author": 2,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 73,
+    "fields": {
+        "book": 35,
+        "author": 30,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 74,
+    "fields": {
+        "book": 36,
+        "author": 5,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 75,
+    "fields": {
+        "book": 36,
+        "author": 13,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 76,
+    "fields": {
+        "book": 36,
+        "author": 16,
+        "role": "author",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 77,
+    "fields": {
+        "book": 37,
+        "author": 19,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 78,
+    "fields": {
+        "book": 37,
+        "author": 21,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 79,
+    "fields": {
+        "book": 38,
+        "author": 11,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 80,
+    "fields": {
+        "book": 38,
+        "author": 3,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 81,
+    "fields": {
+        "book": 39,
+        "author": 13,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 82,
+    "fields": {
+        "book": 40,
+        "author": 28,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 83,
+    "fields": {
+        "book": 41,
+        "author": 6,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 84,
+    "fields": {
+        "book": 42,
+        "author": 22,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 85,
+    "fields": {
+        "book": 42,
+        "author": 15,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 86,
+    "fields": {
+        "book": 42,
+        "author": 14,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 87,
+    "fields": {
+        "book": 43,
+        "author": 25,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 88,
+    "fields": {
+        "book": 43,
+        "author": 19,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 89,
+    "fields": {
+        "book": 44,
+        "author": 18,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 90,
+    "fields": {
+        "book": 44,
+        "author": 14,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 91,
+    "fields": {
+        "book": 45,
+        "author": 7,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 92,
+    "fields": {
+        "book": 45,
+        "author": 5,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 93,
+    "fields": {
+        "book": 46,
+        "author": 7,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 94,
+    "fields": {
+        "book": 47,
+        "author": 13,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 95,
+    "fields": {
+        "book": 47,
+        "author": 21,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 96,
+    "fields": {
+        "book": 47,
+        "author": 23,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 97,
+    "fields": {
+        "book": 48,
+        "author": 5,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 98,
+    "fields": {
+        "book": 48,
+        "author": 26,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 99,
+    "fields": {
+        "book": 49,
+        "author": 30,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 100,
+    "fields": {
+        "book": 49,
+        "author": 27,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 101,
+    "fields": {
+        "book": 49,
+        "author": 25,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 102,
+    "fields": {
+        "book": 50,
+        "author": 12,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 103,
+    "fields": {
+        "book": 50,
+        "author": 28,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 104,
+    "fields": {
+        "book": 51,
+        "author": 10,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 105,
+    "fields": {
+        "book": 51,
+        "author": 13,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 106,
+    "fields": {
+        "book": 51,
+        "author": 24,
+        "role": "author",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 107,
+    "fields": {
+        "book": 52,
+        "author": 29,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 108,
+    "fields": {
+        "book": 53,
+        "author": 25,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 109,
+    "fields": {
+        "book": 53,
+        "author": 5,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 110,
+    "fields": {
+        "book": 54,
+        "author": 13,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 111,
+    "fields": {
+        "book": 54,
+        "author": 12,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 112,
+    "fields": {
+        "book": 54,
+        "author": 24,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 113,
+    "fields": {
+        "book": 55,
+        "author": 12,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 114,
+    "fields": {
+        "book": 55,
+        "author": 5,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 115,
+    "fields": {
+        "book": 56,
+        "author": 22,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 116,
+    "fields": {
+        "book": 56,
+        "author": 15,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 117,
+    "fields": {
+        "book": 57,
+        "author": 9,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 118,
+    "fields": {
+        "book": 57,
+        "author": 11,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 119,
+    "fields": {
+        "book": 57,
+        "author": 12,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 120,
+    "fields": {
+        "book": 58,
+        "author": 17,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 121,
+    "fields": {
+        "book": 58,
+        "author": 10,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 122,
+    "fields": {
+        "book": 59,
+        "author": 7,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 123,
+    "fields": {
+        "book": 60,
+        "author": 4,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 124,
+    "fields": {
+        "book": 60,
+        "author": 1,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 125,
+    "fields": {
+        "book": 60,
+        "author": 7,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 126,
+    "fields": {
+        "book": 61,
+        "author": 22,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 127,
+    "fields": {
+        "book": 62,
+        "author": 5,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 128,
+    "fields": {
+        "book": 62,
+        "author": 7,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 129,
+    "fields": {
+        "book": 62,
+        "author": 15,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 130,
+    "fields": {
+        "book": 63,
+        "author": 28,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 131,
+    "fields": {
+        "book": 63,
+        "author": 24,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 132,
+    "fields": {
+        "book": 63,
+        "author": 22,
+        "role": "translator",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 133,
+    "fields": {
+        "book": 64,
+        "author": 4,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 134,
+    "fields": {
+        "book": 65,
+        "author": 25,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 135,
+    "fields": {
+        "book": 66,
+        "author": 28,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 136,
+    "fields": {
+        "book": 67,
+        "author": 18,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 137,
+    "fields": {
+        "book": 67,
+        "author": 14,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 138,
+    "fields": {
+        "book": 68,
+        "author": 12,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 139,
+    "fields": {
+        "book": 69,
+        "author": 14,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 140,
+    "fields": {
+        "book": 70,
+        "author": 17,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 141,
+    "fields": {
+        "book": 71,
+        "author": 3,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 142,
+    "fields": {
+        "book": 71,
+        "author": 29,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 143,
+    "fields": {
+        "book": 72,
+        "author": 17,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 144,
+    "fields": {
+        "book": 72,
+        "author": 15,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 145,
+    "fields": {
+        "book": 73,
+        "author": 7,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 146,
+    "fields": {
+        "book": 74,
+        "author": 28,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 147,
+    "fields": {
+        "book": 75,
+        "author": 26,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 148,
+    "fields": {
+        "book": 76,
+        "author": 26,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 149,
+    "fields": {
+        "book": 76,
+        "author": 10,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 150,
+    "fields": {
+        "book": 77,
+        "author": 17,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 151,
+    "fields": {
+        "book": 77,
+        "author": 28,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 152,
+    "fields": {
+        "book": 78,
+        "author": 21,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 153,
+    "fields": {
+        "book": 78,
+        "author": 25,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 154,
+    "fields": {
+        "book": 78,
+        "author": 22,
+        "role": "author",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 155,
+    "fields": {
+        "book": 79,
+        "author": 15,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 156,
+    "fields": {
+        "book": 80,
+        "author": 19,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 157,
+    "fields": {
+        "book": 81,
+        "author": 30,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 158,
+    "fields": {
+        "book": 81,
+        "author": 29,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 159,
+    "fields": {
+        "book": 82,
+        "author": 9,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 160,
+    "fields": {
+        "book": 82,
+        "author": 15,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 161,
+    "fields": {
+        "book": 82,
+        "author": 5,
+        "role": "translator",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 162,
+    "fields": {
+        "book": 83,
+        "author": 15,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 163,
+    "fields": {
+        "book": 83,
+        "author": 27,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 164,
+    "fields": {
+        "book": 84,
+        "author": 30,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 165,
+    "fields": {
+        "book": 84,
+        "author": 11,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 166,
+    "fields": {
+        "book": 85,
+        "author": 28,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 167,
+    "fields": {
+        "book": 85,
+        "author": 24,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 168,
+    "fields": {
+        "book": 86,
+        "author": 30,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 169,
+    "fields": {
+        "book": 87,
+        "author": 10,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 170,
+    "fields": {
+        "book": 88,
+        "author": 15,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 171,
+    "fields": {
+        "book": 88,
+        "author": 13,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 172,
+    "fields": {
+        "book": 89,
+        "author": 29,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 173,
+    "fields": {
+        "book": 89,
+        "author": 20,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 174,
+    "fields": {
+        "book": 89,
+        "author": 17,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 175,
+    "fields": {
+        "book": 90,
+        "author": 12,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 176,
+    "fields": {
+        "book": 90,
+        "author": 19,
+        "role": "translator",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 177,
+    "fields": {
+        "book": 91,
+        "author": 19,
+        "role": "translator",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 178,
+    "fields": {
+        "book": 92,
+        "author": 5,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 179,
+    "fields": {
+        "book": 92,
+        "author": 23,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 180,
+    "fields": {
+        "book": 92,
+        "author": 30,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 181,
+    "fields": {
+        "book": 93,
+        "author": 30,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 182,
+    "fields": {
+        "book": 93,
+        "author": 17,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 183,
+    "fields": {
+        "book": 93,
+        "author": 25,
+        "role": "translator",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 184,
+    "fields": {
+        "book": 94,
+        "author": 8,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 185,
+    "fields": {
+        "book": 94,
+        "author": 3,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 186,
+    "fields": {
+        "book": 94,
+        "author": 4,
+        "role": "coauthor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 187,
+    "fields": {
+        "book": 95,
+        "author": 28,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 188,
+    "fields": {
+        "book": 95,
+        "author": 17,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 189,
+    "fields": {
+        "book": 95,
+        "author": 3,
+        "role": "translator",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 190,
+    "fields": {
+        "book": 96,
+        "author": 1,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 191,
+    "fields": {
+        "book": 96,
+        "author": 20,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 192,
+    "fields": {
+        "book": 97,
+        "author": 5,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 193,
+    "fields": {
+        "book": 97,
+        "author": 7,
+        "role": "coauthor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 194,
+    "fields": {
+        "book": 97,
+        "author": 21,
+        "role": "editor",
+        "order": 3
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 195,
+    "fields": {
+        "book": 98,
+        "author": 30,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 196,
+    "fields": {
+        "book": 98,
+        "author": 12,
+        "role": "editor",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 197,
+    "fields": {
+        "book": 99,
+        "author": 3,
+        "role": "editor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 198,
+    "fields": {
+        "book": 99,
+        "author": 7,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 199,
+    "fields": {
+        "book": 100,
+        "author": 16,
+        "role": "coauthor",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 200,
+    "fields": {
+        "book": 100,
+        "author": 25,
+        "role": "author",
+        "order": 2
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 203,
+    "fields": {
+        "book": 102,
+        "author": 7,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 204,
+    "fields": {
+        "book": 103,
+        "author": 25,
+        "role": "author",
+        "order": 1
+    }
+},
+{
+    "model": "books.bookauthor",
+    "pk": 205,
+    "fields": {
+        "book": 104,
+        "author": 25,
+        "role": "author",
+        "order": 1
+    }
+}
+]
