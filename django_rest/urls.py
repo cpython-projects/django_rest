@@ -32,6 +32,8 @@ from rest_framework_simplejwt import views as jwt_views
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 
+from books import views as books_views
+
 router = routers.DefaultRouter()
 # router.register(r'publishers', books_views.PublisherAPIView)
 router.register(r'books', books_views.BookListCreateViewSet, basename='books')
@@ -66,6 +68,9 @@ urlpatterns = [
 
 
     path('api/v1/', include(router.urls)),
+
+    path('api/v1/login/', books_views.LoginView.as_view(), name='login'),
+    path('api/v1/logout/', books_views.LogoutView.as_view(), name='logout'),
 
     # # схема OpenAPI
     # path('api/schema/', SpectacularAPIView.as_view(), name='schema'),

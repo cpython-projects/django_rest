@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from drf_yasg.utils import swagger_auto_schema
 
 from django.utils import timezone
@@ -8,12 +10,17 @@ from rest_framework.pagination import PageNumberPagination, LimitOffsetPaginatio
 from django.db.models import Count
 from rest_framework.response import Response
 from drf_spectacular.utils import extend_schema, OpenApiParameter, OpenApiResponse
+from rest_framework.views import APIView
+from rest_framework_simplejwt.tokens import RefreshToken
+
 from .models import Publisher, Book, Author
 
-from .serializers import DetailPublisherSerializer, BookSerializer, AuthorDetailSerializer
-
+from .serializers import DetailPublisherSerializer, BookSerializer, AuthorDetailSerializer, RegisterSerializer
 
 from rest_framework.permissions import BasePermission, DjangoModelPermissions
+
+
+from django.contrib.auth import authenticate
 
 
 class IsOwnerOrReadOnly(BasePermission):
@@ -137,4 +144,113 @@ class BookListCreateViewSet(viewsets.ModelViewSet):
 #
 #         return Response(data, status=status.HTTP_200_OK)
 #
+
+
+
+
+# 13.10.2025
+
+
+class LoginView(APIView):
+    permission_classes = (permissions.AllowAny,)
+
+    def post(self, request, *args, **kwargs):
+        username = request.data.get("username")
+        password = request.data.get("password")
+
+        user = authenticate(request, username=username, password=password)
+
+        if user:
+            refresh = RefreshToken.for_user(user)
+            access_token = refresh.access_token
+
+            access_expiry = datetime.fromtimestamp(access_token['exp'])
+            refresh_expiry = datetime.fromtimestamp(refresh['exp'])
+
+            response = Response(status=status.HTTP_200_OK)
+            response.set_cookie(
+                key='access_token',
+                value=str(access_token),
+                httponly=True,
+                secure=False,  # Используйте True для HTTPS
+                samesite='Lax',
+                expires=access_expiry
+            )
+            response.set_cookie(
+                key='refresh_token',
+                value=str(refresh),
+                httponly=True,
+                secure=False,
+                samesite='Lax',
+                expires=refresh_expiry
+            )
+
+            return response
+
+        return Response({'message': 'Error'}, status=status.HTTP_401_UNAUTHORIZED)
+
+
+
+class LogoutView(APIView):
+    def post(self, request, *args, **kwargs):
+        response = Response(status=status.HTTP_204_NO_CONTENT)
+        response.delete_cookie('access_token')
+        response.delete_cookie('refresh_token')
+        return response
+
+
+def set_jwt_cookies(response, user):
+    refresh_token = RefreshToken.for_user(user)
+    access_token = refresh_token.access_token
+
+    # Устанавливает JWT токены в куки.
+    access_expiry = datetime.utcfromtimestamp(access_token['exp'])
+    refresh_expiry = datetime.utcfromtimestamp(refresh_token['exp'])
+
+    response.set_cookie(
+        key='access_token',
+        value=str(access_token),
+        httponly=True,
+        secure=False,
+        samesite='Lax',
+        expires=access_expiry
+    )
+    response.set_cookie(
+        key='refresh_token',
+        value=str(refresh_token),
+        httponly=True,
+        secure=False,
+        samesite='Lax',
+        expires=refresh_expiry
+    )
+
+
+class RegisterView(APIView):
+    permission_classes = (permissions.AllowAny,)
+
+    def post(self, request, *args, **kwargs):
+        serializer = RegisterSerializer(data=request.data)
+
+        if serializer.is_valid():
+            user = serializer.save()
+
+            response = Response({
+                'user': {
+                    'username': user.username,
+                    'email': user.email,
+                }
+            }, status=status.HTTP_201_CREATED)
+
+            set_jwt_cookies(response, user)
+            return response
+        else:
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+
+
+
+
+
 
